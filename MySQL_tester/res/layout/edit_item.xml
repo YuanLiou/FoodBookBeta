@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|left" >
+
+    <LinearLayout
+        android:id="@+id/editItem_layout_p1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:text="@string/store_name"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView_name_editItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@android:drawable/ic_lock_lock"
+                android:text=""
+                android:textColor="#3366FF"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/store_address"
+                android:textSize="19sp" />
+
+            <Spinner
+                android:id="@+id/spinner_country_editItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/editText_township_editItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/editText_address_editItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:lines="3" />
+        </LinearLayout>
+
+</ScrollView>

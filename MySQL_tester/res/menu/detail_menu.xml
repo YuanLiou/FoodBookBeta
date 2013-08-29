@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/modify_object"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/menu_modify"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom|withText"/>
+    
+    <item 
+        android:id="@+id/delete_object"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/menu_delete"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom|withText"/>
+    
+     <item 
+        android:id="@+id/detail_map_interface"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/menu_mapLocation"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom|withText"/>
+    
+    <item 
+        android:id="@+id/register_mystore"
+        android:title="@string/menu_shopkeeper"
+        android:showAsAction="never"/>
+
+</menu>

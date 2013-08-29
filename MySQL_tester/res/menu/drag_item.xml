@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/drag_marker_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_save"/>
+    
+    <item
+        android:id="@+id/drag_marker_confirm"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_confirm"/>
+        
+    <item
+        android:id="@+id/drag_marker_cancel"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_cancel"/>
+
+</menu>

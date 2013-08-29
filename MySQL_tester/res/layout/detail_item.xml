@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_inputName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/store_name"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView_detail_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF9933"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView_price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ItemP1_lowsetPrice"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView_detail_price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF9933"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/store_address"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView_detail_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF9933"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detailItem_photo"
+            android:textSize="19sp" />
+
+        <ProgressBar
+            android:id="@+id/Detail_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible" />
+
+        <HorizontalScrollView
+            android:id="@+id/Detail_horizontalScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="#000000"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/Detail_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/add_Photo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/add_photo_test" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>

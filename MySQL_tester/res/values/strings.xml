@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">店家資訊Prototype</string>
+    <string name="action_about">關於</string>
+    <string name="allItem_loading">正在讀取中....(旋轉)</string>
+    <string name="alertDialogCancel">取消</string>
+    <string name="alertDialogOkay">確定</string>
+    <string name="gpsRequest">請開啟GPS提昇定位精準</string>
+    <string name="waitForGps">請等待GPS定位完成</string>
+    <string name="alertComfirmTitle">確認</string>
+    <string name="sampleAddress">參考地址:</string>
+    <string name="store_name">店家名稱</string>
+    <string name="ItemP1_lowsetPrice">最低消費</string>
+    <string name="store_address">地址</string>
+    <string name="ItemTab_dataGetError">數值取得失敗</string>
+    <string name="editItemTab_loadingDetailData">讀取詳細資料中....</string>
+    <string name="footer_DisplayMore">顯示更多....</string>
+    <string name="user_Mes">留言</string>
+    <string name="photoPreview_okayAndUpload">確定上傳</string>
+    <string name="splash_alertNetErrorTitle">哎喲!</string>
+    <string name="splash_alertNetErrorMes">請將裝置連線至網路。:(</string>
+    <!-- about page use -->
+    <string name="about_title">FoodBook beta</string>
+    <string name="about_temporary">-temporary</string>
+    <string name="about_version_tag">Version:</string>
+    <string name="about_version_vaule">prototype.(M3)</string>
+    <string name="about_author_tag">Author:</string>
+    <string name="about_author_vaule">Porposal.</string>
+    <string name="about_author_member">Yuer Lee,Yuan Liou\nMatt Zhuang, Ms.Hsu</string>
+    <string name="about_special_thanks">Special Thanks:</string>
+    <!-- XitemPage2 -->
+    <string name="Item_opentime">營業時間</string>
+    <string name="Item_24hropen">24小時營業</string>
+    <string name="Item_startTime">開始時間</string>
+    <string name="Item_TimeTo">至</string>
+    <string name="Item_endTime">結束時間</string>
+    <string name="Item_restdays">公休日</string>
+    <string name="Item_monday">星期一</string>
+    <string name="Item_tuesday">星期二</string>
+    <string name="Item_wednesday">星期三</string>
+    <string name="Item_thursday">星期四</string>
+    <string name="Item_friday">星期五</string>
+    <string name="Item_saturday">星期六</string>
+    <string name="Item_sunday">星期日</string>
+    <string name="Item_nationHoliday">國定假日</string>
+    <string name="Item_memo">備註</string>
+    <!-- addItem_Page2 xml only -->
+    <string name="addItemP2_addStartTime">加入營業時間</string>
+    <string name="addItemP2_addEndTime">加入結束時間</string>
+    <!-- editItem_Page2 xml only -->
+    <string name="editItemP2_editStartTime">修改營業時間</string>
+    <string name="editItemP2_editEndTime">修改結束時間</string>
+    <string name="editItemP2_resetRestDay">重設</string>
+    <!-- XItemPage3 -->
+    <string name="ItemP3_storeEmail">商家 Email</string>
+    <string name="ItemP3_storeWeb">商家網站網址</string>
+    <string name="ItemP3_otherOption">其他</string>
+    <string name="ItemP3_canDelivery">有外送服務</string>
+    <string name="ItemP3_canToGo">餐點可供外帶</string>
+    <!-- XItem_tab -->
+    <string name="ItemTab_tabName1">一般</string>
+    <string name="ItemTab_tabName2">時間</string>
+    <string name="ItemTab_tabName3">詳細</string>
+    <string name="ItemTab_processing">正在建立項目....</string>
+    <string name="ItemTab_countryNull">請選擇</string>
+    <string name="ItemTab_nameOrCountryError">店的名字不可為空值，請留意。\n或檢查縣市欄位。</string>
+    <string name="ItemTab_comfirmMessage1">以下是目前的基本資訊: </string>
+    <string name="ItemTab_comfirmMessage2">\n店家名稱:</string>
+    <string name="ItemTab_comfirmMessage3">\n最低消費: </string>
+    <string name="ItemTab_comfirmMessage4">\n店家電話:</string>
+    <string name="ItemTab_comfirmMessage5">\n地址:</string>
+    <string name="ItemTab_comfirmMessage6">\n營業時間:</string>
+    <string name="ItemTab_comfirmMessage7">到</string>
+    <string name="ItemTab_comfirmMessage8">\n休息日:</string>
+    <string name="ItemTab_comfirmMessage9">\n\n請確認好店家的名稱,因為一旦上傳,將無法再修改!!</string>
+    <string name="ItemTab_cancelToEdit">放棄編輯？</string>
+    <string name="ItemTab_cancelToEditMessage">確定要放棄編輯，並回到上一頁嗎？</string>
+    <string name="ItemTab_addressNo">號</string>
+    <!-- EditItem Java only -->
+    <string name="editItemTab_saving">儲存中....</string>
+    <string name="editItemTab_confirmMessage">以下是目前的修改資訊: \n</string>
+    <string name="editItemTab_alertAskForExitTitle">離開</string>
+    <string name="editItemTab_alertAskForExitMes">確定要回到上一頁嗎？</string>
+    <string name="editItemTab_alertCancelToEditTitle">放棄編輯？</string>
+    <string name="editItemTab_alertCancelToEditMes">確定要放棄編輯，並回到商家列表嗎？</string>
+    <!-- add/edit_item p1 xml -->
+    <string name="ItemP1_custom">(選填)</string>
+    <string name="ItemP1_telephone">電話</string>
+    <string name="ItemP1_addressTownship">請輸入鄉/鎮/市/區</string>
+    <string name="ItemP1_addressLast">請輸入後綴地址</string>
+    <!-- Add/EditItem p1 java -->
+    <string name="ItemP1_currentCountry">請選擇(預設:台北市)</string>
+    <string name="ItemP1_plzChooseCountry">請選擇</string>
+    <string name="ItemP1_plzChooseCountryToast">請選擇縣市</string>
+    <!-- EditItem p1 java only -->
+    <string name="editItemP1_currentCountry">目前設定</string>
+    <string name="editItemP1_countryError">錯誤</string>
+    <!-- DetailItem java and xml -->
+    <string name="detailItem_photo">照片</string>
+    <string name="detailItem_alertDeleteTitle">刪除</string>
+    <string name="detailItem_alertDeleteMes">確定要刪除這一個店家嗎？</string>
+    <string name="detailItem_gpsFixingNow">正在取得商店位置，請稍後再試一次。</string>
+    <string name="detailItem_registerMyStoreTitle">認領店家</string>
+    <string name="detailItem_registerMyStoreMes">稍待開啟E-mail App來進行寄信，請直接寄出即可。\n稍待客服人員電訪確認後，將會發送一組商家的專屬帳號以供登入。\n謝謝。</string>
+    <string name="detailItem_alertGoToRegisterTitle">註冊</string>
+    <string name="detailItem_alertGoToRegisterMes">請先登入。\n如尚未擁有帳號，請您註冊為會員。</string>
+    <string name="detailItem_deletingItem">刪除資料中....</string>
+    <string name="detailItem_createChooser">認領店家</string>
+    <string name="detailItem_doNotFindAppforSend">沒有發現用來寄信的 App :(</string>
+    <string name="detailItem_takeaPicture">馬上拍照</string>
+    <string name="detailItem_choosePhotos">選取相片</string>
+    <string name="detailItem_alertPlzChoosePitureApp">請選擇圖片庫</string>
+    <string name="detailItem_imagePreview">預覽</string>
+    <string name="detailItem_sendingPhoto">上傳照片中....</string>
+    <!-- ItemList java and list_item xml -->
+    <string name="listItem_distances">距離:</string>
+    <string name="itemList_alertNetErrorTitle">網路連線問題</string>
+    <string name="itemList_alertNetErrorMes">目前本裝置尚未連上網路\n請將裝置連上網路。</string>
+    <string name="itemList_alertLogoutTitle">登出</string>
+    <string name="itemList_alertLogoutMes">確定要登出嗎？</string>
+    <string name="itemList_goMapInterfaceError">請稍待定位完成。\n或按重新整理再試一次</string>
+    <string name="itemList_alertExitAppTitle">離開程式？</string>
+    <string name="itemList_alertExitAppMes">確定要離開程式了嗎？;-(</string>
+    <string name="itemList_alertExitAppOkay">嗯嗯對呀</string>
+    <!-- login xml and LoginActivity java -->
+    <string name="login_title">會員登入</string>
+    <string name="login_account">帳號(E-mail)</string>
+    <string name="login_accountNote">請輸入E-mail信箱</string>
+    <string name="login_password">密碼</string>
+    <string name="login_iWantToRegister">我想註冊一個新帳號</string>
+    <string name="login_nowLogining">正在登入....</string>
+    <string name="login_welcomeMessage1">你好</string>
+    <string name="login_welcomeMessage2">，歡迎登入！:> </string>
+    <string name="login_errorMessage">錯誤的帳號或者密碼</string>
+    <string name="login_plzCheckEmailFormat">請再檢查一次帳號(Email)和密碼是否正確</string>
+    <!-- For those map use -->
+    <string name="mapdragger_reset">復原</string>
+    <string name="mapdragger_alertCautionTitle">注意</string>
+    <string name="mapdragger_alertCautionMessage">請在標記上「長按」即可拖曳該標記</string>
+    <string name="map_getInformation">取得地圖資訊中....</string>
+    <string name="map_markerForConfirm">確認座標</string>
+    <string name="map_snipetStartTime">開始營業:</string>
+    <string name="map_snipetEndTime"> ,結束營業:</string>
+    <string name="mapdragger_updatingOurLocation">更新位置中....</string>
+    <string name="mapdragger_updateLocationMes">確定要更改為目前的位置嗎？</string>
+    <!-- register xml and RegisterActivity java -->
+    <string name="register_Title">會員註冊</string>
+    <string name="register_passwordAgain">請再次輸入密碼</string>
+    <string name="register_phone">聯絡電話</string>
+    <string name="register_nickName">暱稱</string>
+    <string name="register_sex">性別</string>
+    <string name="register_sex_girl">女生</string>
+    <string name="register_sex_boy">男生</string>
+    <string name="register_sex_xsex">第三性別</string>
+    <string name="register_registing">正在註冊....</string>
+    <string name="register_errorOccured">註冊時出現了錯誤，請再試一次。</string>
+    <string name="register_alertComfirmMes">確定要送出註冊資訊了嗎？</string>
+    <string name="register_toastEmailFormatOrEmpty">有一個或多個空格\n或是Email網址不合法</string>
+    <string name="register_passwordNotSame">密碼和重複輸入一次的密碼不符</string>
+    <string name="register_exitRegisterPageMes">確定要離開註冊頁面嗎？</string>
+    <!-- sidebar use -->
+    <string name="sidebar_searchTitle">搜尋</string>
+    <string name="sidebar_tagsTitle">分類標籤</string>
+    <string name="search_noString">請輸入關鍵字</string>
+    <string name="search_noItem">沒有符合的項目</string>
+    <string name="listView_noItem">啊啦! 沒有找到東西哎 :S</string>
+</resources>

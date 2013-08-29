@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+    
+    <item
+        android:id="@+id/reflesh_object"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/menu_refresh"/>
+    
+    <item
+        android:id="@+id/reflesh_list"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:visible="false"
+        android:title="@string/menu_reflesh_list"/>
+    
+    <item
+        android:id="@+id/add_object"
+        android:icon="@android:drawable/ic_input_add"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_addStore"/>
+    <item
+        android:id="@+id/login_user"
+        android:icon="@android:drawable/ic_menu_upload"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_login"/>
+    
+    <item
+        android:id="@+id/logout_user"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_logout"/>
+    
+    <item
+        android:id="@+id/map_interface"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_map"/>
+
+</menu>

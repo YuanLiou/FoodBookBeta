@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_an_object"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_sendinfor"/>
+    <item
+        android:id="@+id/addItem_modifyLocation"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_modifyLocation"/>
+    
+    <item
+        android:id="@+id/addItem_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_maprefresh"/>
+
+</menu>

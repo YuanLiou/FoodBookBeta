@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+     <item 
+        android:id="@+id/navgation_map"
+        android:icon="@drawable/ic_menu_goto"
+        android:title="@string/menu_navgation_map"
+        android:orderInCategory="1"
+        android:showAsAction="always|withText"/>
+
+</menu>

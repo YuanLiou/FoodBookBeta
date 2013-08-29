@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_sendinfor">送出資訊</string>
+    <string name="menu_modifyLocation">確認座標位置</string>
+    <string name="menu_maprefresh">更新GPS座標</string>
+    <string name="menu_modify">修改</string>
+    <string name="menu_delete">刪除</string>
+    <string name="menu_mapLocation">顯示地圖位置</string>
+    <string name="menu_shopkeeper">我是此商店的負責人</string>
+    <string name="menu_save">存檔</string>
+    <string name="menu_confirm">確認</string>
+    <string name="menu_cancel">取消</string>
+    <string name="menu_editLocation">修改地圖位置</string>
+    <string name="menu_login">登入</string>
+    <string name="menu_refresh">重新整理</string>
+    <string name="menu_addStore">增加店家</string>
+    <string name="menu_logout">登出</string>
+    <string name="menu_map">地圖</string>
+    <string name="menu_register">註冊</string>
+    <string name="menu_navgation_map">帶我去!</string>
+    <string name="menu_reflesh_list">清除搜尋列表</string>
+    <string name="menu_force_input">重新整理資訊</string>
+
+</resources>

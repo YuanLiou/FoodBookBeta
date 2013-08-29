@@ -1,0 +1,6 @@
+JakeWharton [ActionBarSherlock]
+Jeremy Feinstein [SlidingMenu]
+chrisbanes [ActionBar-PullToRefresh]
+Justin Schultz [android-lightbox]
+Jeff Gilfelt [Android Action Bar Style Generator]
+Andy [Email Format Check / Stack Overflow]
